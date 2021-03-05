@@ -30,6 +30,16 @@ h3
 {
   color: #11999E;
 }
+a
+{
+  color: #11999E;
+  font-family: 'Montserrat',sans-serif;
+}
+a:hover
+{
+  color: #EAf6f6;
+}
+
 .contact-message
 {
   width: 40%;
@@ -71,22 +81,19 @@ h3
 }
 
 .bottom-container
-{padding-top:70px;
+{
+  padding-top:70px;
   background-color: #66BFBF;
-  color: #EAF6F6
+  color: #EAF6F6;
+
 }
 
 .footer-link
 {
   padding: 30px;
+  text-decoration:none;
 }
 
-.social-media
- {
-  height: 30px;
-  width: 30px;
-  margin-bottom: 30px;
-}
 
 .top-cloud
  {
@@ -104,8 +111,9 @@ h3
 .copyright
 {
   margin-bottom: 0;
+  padding-top: 20px;
   padding-bottom:10px;
-  font-size: 0.75em;
+  font-size: 80%;
 }
 
 .BUTTON_VAR
